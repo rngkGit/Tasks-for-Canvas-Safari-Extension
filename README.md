@@ -32,10 +32,7 @@ Compatibility as a whole is unknown. Here are the known devices that can run thi
 
 4. Build and run the project
 
-5. Ensure Safari Developer settings are enabled.
-   - **macOS 26**: Safari → Settings → Advanced → Ensure "Show features for web developers" is checked → Developer → Allow unsigned extensions
-
-7. Enable the extension:
+5. Enable the extension:
    - **macOS**: Safari → Settings → Extensions → Enable "Tasks for Canvas"
 
 ### Building the Extension
@@ -48,6 +45,11 @@ Compatibility as a whole is unknown. Here are the known devices that can run thi
 ### Releases
 
 Tasks For Canvas.app is avaiable in the releases section for macOS.
+
+### Important Note
+
+Ensure Safari Developer settings are enabled.
+   - **macOS 26**: Safari → Settings → Advanced → Ensure "Show features for web developers" is checked → Developer → Allow unsigned extensions
 
 ## Issues
 
