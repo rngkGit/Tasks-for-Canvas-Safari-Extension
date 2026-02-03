@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD403B5C2F327BBA00D5B9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B5B2F327BBA00D5B9AD /* AppDelegate.swift */; };
+		AD403B5E2F327BBA00D5B9AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B5D2F327BBA00D5B9AD /* SceneDelegate.swift */; };
+		AD403B612F327BBA00D5B9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD403B5F2F327BBA00D5B9AD /* LaunchScreen.storyboard */; };
+		AD403B642F327BBA00D5B9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD403B622F327BBA00D5B9AD /* Main.storyboard */; };
+		AD403B6D2F327BBB00D5B9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B6C2F327BBB00D5B9AD /* AppDelegate.swift */; };
+		AD403B702F327BBB00D5B9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD403B6E2F327BBB00D5B9AD /* Main.storyboard */; };
+		AD403B772F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD403B762F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD403B812F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD403B802F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD403B862F327BBB00D5B9AD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4B2F327BBA00D5B9AD /* Main.html */; };
+		AD403B872F327BBB00D5B9AD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4B2F327BBA00D5B9AD /* Main.html */; };
+		AD403B882F327BBB00D5B9AD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4D2F327BBA00D5B9AD /* Icon.png */; };
+		AD403B892F327BBB00D5B9AD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4D2F327BBA00D5B9AD /* Icon.png */; };
+		AD403B8A2F327BBB00D5B9AD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4E2F327BBA00D5B9AD /* Style.css */; };
+		AD403B8B2F327BBB00D5B9AD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4E2F327BBA00D5B9AD /* Style.css */; };
+		AD403B8C2F327BBB00D5B9AD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4F2F327BBA00D5B9AD /* Script.js */; };
+		AD403B8D2F327BBB00D5B9AD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403B4F2F327BBA00D5B9AD /* Script.js */; };
+		AD403B8E2F327BBB00D5B9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B502F327BBA00D5B9AD /* ViewController.swift */; };
+		AD403B8F2F327BBB00D5B9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B502F327BBA00D5B9AD /* ViewController.swift */; };
+		AD403B902F327BBB00D5B9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD403B512F327BBA00D5B9AD /* Assets.xcassets */; };
+		AD403B912F327BBB00D5B9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD403B512F327BBA00D5B9AD /* Assets.xcassets */; };
+		AD403B922F327BBB00D5B9AD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B532F327BBA00D5B9AD /* SafariWebExtensionHandler.swift */; };
+		AD403B932F327BBB00D5B9AD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD403B532F327BBA00D5B9AD /* SafariWebExtensionHandler.swift */; };
+		AD403BAE2F327BBB00D5B9AD /* content.styles.css in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA52F327BBB00D5B9AD /* content.styles.css */; };
+		AD403BAF2F327BBB00D5B9AD /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA62F327BBB00D5B9AD /* contentScript.bundle.js */; };
+		AD403BB02F327BBB00D5B9AD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA72F327BBB00D5B9AD /* popup.html */; };
+		AD403BB12F327BBB00D5B9AD /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA82F327BBB00D5B9AD /* background.bundle.js */; };
+		AD403BB22F327BBB00D5B9AD /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA92F327BBB00D5B9AD /* _metadata */; };
+		AD403BB32F327BBB00D5B9AD /* options.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAA2F327BBB00D5B9AD /* options.bundle.js */; };
+		AD403BB42F327BBB00D5B9AD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAB2F327BBB00D5B9AD /* manifest.json */; };
+		AD403BB52F327BBB00D5B9AD /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAC2F327BBB00D5B9AD /* options.html */; };
+		AD403BB62F327BBB00D5B9AD /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAD2F327BBB00D5B9AD /* icon-128.png */; };
+		AD403BB72F327BBB00D5B9AD /* content.styles.css in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA52F327BBB00D5B9AD /* content.styles.css */; };
+		AD403BB82F327BBB00D5B9AD /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA62F327BBB00D5B9AD /* contentScript.bundle.js */; };
+		AD403BB92F327BBB00D5B9AD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA72F327BBB00D5B9AD /* popup.html */; };
+		AD403BBA2F327BBB00D5B9AD /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA82F327BBB00D5B9AD /* background.bundle.js */; };
+		AD403BBB2F327BBB00D5B9AD /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = AD403BA92F327BBB00D5B9AD /* _metadata */; };
+		AD403BBC2F327BBB00D5B9AD /* options.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAA2F327BBB00D5B9AD /* options.bundle.js */; };
+		AD403BBD2F327BBB00D5B9AD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAB2F327BBB00D5B9AD /* manifest.json */; };
+		AD403BBE2F327BBB00D5B9AD /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAC2F327BBB00D5B9AD /* options.html */; };
+		AD403BBF2F327BBB00D5B9AD /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = AD403BAD2F327BBB00D5B9AD /* icon-128.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD403B782F327BBB00D5B9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD403B452F327BBA00D5B9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD403B752F327BBB00D5B9AD;
+			remoteInfo = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS)";
+		};
+		AD403B822F327BBB00D5B9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD403B452F327BBA00D5B9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD403B7F2F327BBB00D5B9AD;
+			remoteInfo = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD403B992F327BBB00D5B9AD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD403B772F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403BA02F327BBB00D5B9AD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD403B812F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD403B4C2F327BBA00D5B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		AD403B4D2F327BBA00D5B9AD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AD403B4E2F327BBA00D5B9AD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		AD403B4F2F327BBA00D5B9AD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		AD403B502F327BBA00D5B9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD403B512F327BBA00D5B9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD403B532F327BBA00D5B9AD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AD403B582F327BBA00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD403B5B2F327BBA00D5B9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD403B5D2F327BBA00D5B9AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD403B602F327BBA00D5B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD403B632F327BBA00D5B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD403B652F327BBA00D5B9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD403B6A2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD403B6C2F327BBB00D5B9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD403B6F2F327BBB00D5B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD403B712F327BBB00D5B9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD403B762F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD403B7B2F327BBB00D5B9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD403B802F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD403B852F327BBB00D5B9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD403BA52F327BBB00D5B9AD /* content.styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.styles.css; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/content.styles.css"; sourceTree = "<group>"; };
+		AD403BA62F327BBB00D5B9AD /* contentScript.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.bundle.js; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/contentScript.bundle.js"; sourceTree = "<group>"; };
+		AD403BA72F327BBB00D5B9AD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/popup.html"; sourceTree = "<group>"; };
+		AD403BA82F327BBB00D5B9AD /* background.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.bundle.js; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/background.bundle.js"; sourceTree = "<group>"; };
+		AD403BA92F327BBB00D5B9AD /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/_metadata"; sourceTree = "<group>"; };
+		AD403BAA2F327BBB00D5B9AD /* options.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.bundle.js; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/options.bundle.js"; sourceTree = "<group>"; };
+		AD403BAB2F327BBB00D5B9AD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/manifest.json"; sourceTree = "<group>"; };
+		AD403BAC2F327BBB00D5B9AD /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/options.html"; sourceTree = "<group>"; };
+		AD403BAD2F327BBB00D5B9AD /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../Library/Application Support/BraveSoftware/Brave-Browser/Default/Extensions/kabafodfnabokkkddjbnkgbcbmipdlmb/1.5.4_0/icon-128.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD403B552F327BBA00D5B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B672F327BBB00D5B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B732F327BBB00D5B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B7D2F327BBB00D5B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD403B442F327BBA00D5B9AD = {
+			isa = PBXGroup;
+			children = (
+				AD403B492F327BBA00D5B9AD /* Shared (App) */,
+				AD403B522F327BBA00D5B9AD /* Shared (Extension) */,
+				AD403B5A2F327BBA00D5B9AD /* iOS (App) */,
+				AD403B6B2F327BBB00D5B9AD /* macOS (App) */,
+				AD403B7A2F327BBB00D5B9AD /* iOS (Extension) */,
+				AD403B842F327BBB00D5B9AD /* macOS (Extension) */,
+				AD403B592F327BBA00D5B9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD403B492F327BBA00D5B9AD /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B502F327BBA00D5B9AD /* ViewController.swift */,
+				AD403B512F327BBA00D5B9AD /* Assets.xcassets */,
+				AD403B4A2F327BBA00D5B9AD /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		AD403B4A2F327BBA00D5B9AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B4B2F327BBA00D5B9AD /* Main.html */,
+				AD403B4D2F327BBA00D5B9AD /* Icon.png */,
+				AD403B4E2F327BBA00D5B9AD /* Style.css */,
+				AD403B4F2F327BBA00D5B9AD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD403B522F327BBA00D5B9AD /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403BA42F327BBB00D5B9AD /* Resources */,
+				AD403B532F327BBA00D5B9AD /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		AD403B592F327BBA00D5B9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B582F327BBA00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */,
+				AD403B6A2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */,
+				AD403B762F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */,
+				AD403B802F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD403B5A2F327BBA00D5B9AD /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B5B2F327BBA00D5B9AD /* AppDelegate.swift */,
+				AD403B5D2F327BBA00D5B9AD /* SceneDelegate.swift */,
+				AD403B5F2F327BBA00D5B9AD /* LaunchScreen.storyboard */,
+				AD403B622F327BBA00D5B9AD /* Main.storyboard */,
+				AD403B652F327BBA00D5B9AD /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		AD403B6B2F327BBB00D5B9AD /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B6C2F327BBB00D5B9AD /* AppDelegate.swift */,
+				AD403B6E2F327BBB00D5B9AD /* Main.storyboard */,
+				AD403B712F327BBB00D5B9AD /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		AD403B7A2F327BBB00D5B9AD /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B7B2F327BBB00D5B9AD /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AD403B842F327BBB00D5B9AD /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AD403B852F327BBB00D5B9AD /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AD403BA42F327BBB00D5B9AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD403BA52F327BBB00D5B9AD /* content.styles.css */,
+				AD403BA62F327BBB00D5B9AD /* contentScript.bundle.js */,
+				AD403BA72F327BBB00D5B9AD /* popup.html */,
+				AD403BA82F327BBB00D5B9AD /* background.bundle.js */,
+				AD403BA92F327BBB00D5B9AD /* _metadata */,
+				AD403BAA2F327BBB00D5B9AD /* options.bundle.js */,
+				AD403BAB2F327BBB00D5B9AD /* manifest.json */,
+				AD403BAC2F327BBB00D5B9AD /* options.html */,
+				AD403BAD2F327BBB00D5B9AD /* icon-128.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD403B572F327BBA00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD403B9A2F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS)" */;
+			buildPhases = (
+				AD403B542F327BBA00D5B9AD /* Sources */,
+				AD403B552F327BBA00D5B9AD /* Frameworks */,
+				AD403B562F327BBA00D5B9AD /* Resources */,
+				AD403B992F327BBB00D5B9AD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD403B792F327BBB00D5B9AD /* PBXTargetDependency */,
+			);
+			name = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS)";
+			productReference = AD403B582F327BBA00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD403B692F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD403BA12F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS)" */;
+			buildPhases = (
+				AD403B662F327BBB00D5B9AD /* Sources */,
+				AD403B672F327BBB00D5B9AD /* Frameworks */,
+				AD403B682F327BBB00D5B9AD /* Resources */,
+				AD403BA02F327BBB00D5B9AD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD403B832F327BBB00D5B9AD /* PBXTargetDependency */,
+			);
+			name = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS)";
+			productReference = AD403B6A2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD403B752F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD403B962F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS)" */;
+			buildPhases = (
+				AD403B722F327BBB00D5B9AD /* Sources */,
+				AD403B732F327BBB00D5B9AD /* Frameworks */,
+				AD403B742F327BBB00D5B9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS)";
+			productReference = AD403B762F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AD403B7F2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD403B9D2F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS)" */;
+			buildPhases = (
+				AD403B7C2F327BBB00D5B9AD /* Sources */,
+				AD403B7D2F327BBB00D5B9AD /* Frameworks */,
+				AD403B7E2F327BBB00D5B9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS)";
+			productReference = AD403B802F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD403B452F327BBA00D5B9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					AD403B572F327BBA00D5B9AD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					AD403B692F327BBB00D5B9AD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					AD403B752F327BBB00D5B9AD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					AD403B7F2F327BBB00D5B9AD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = AD403B482F327BBA00D5B9AD /* Build configuration list for PBXProject "Tasks for Canvas – now supporting Blackboard, D2L Brightspace" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD403B442F327BBA00D5B9AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD403B592F327BBA00D5B9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD403B572F327BBA00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS) */,
+				AD403B692F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS) */,
+				AD403B752F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS) */,
+				AD403B7F2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD403B562F327BBA00D5B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B882F327BBB00D5B9AD /* Icon.png in Resources */,
+				AD403B612F327BBA00D5B9AD /* LaunchScreen.storyboard in Resources */,
+				AD403B862F327BBB00D5B9AD /* Main.html in Resources */,
+				AD403B8C2F327BBB00D5B9AD /* Script.js in Resources */,
+				AD403B902F327BBB00D5B9AD /* Assets.xcassets in Resources */,
+				AD403B642F327BBA00D5B9AD /* Main.storyboard in Resources */,
+				AD403B8A2F327BBB00D5B9AD /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B682F327BBB00D5B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B892F327BBB00D5B9AD /* Icon.png in Resources */,
+				AD403B8B2F327BBB00D5B9AD /* Style.css in Resources */,
+				AD403B702F327BBB00D5B9AD /* Main.storyboard in Resources */,
+				AD403B8D2F327BBB00D5B9AD /* Script.js in Resources */,
+				AD403B912F327BBB00D5B9AD /* Assets.xcassets in Resources */,
+				AD403B872F327BBB00D5B9AD /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B742F327BBB00D5B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403BB82F327BBB00D5B9AD /* contentScript.bundle.js in Resources */,
+				AD403BBD2F327BBB00D5B9AD /* manifest.json in Resources */,
+				AD403BBF2F327BBB00D5B9AD /* icon-128.png in Resources */,
+				AD403BB92F327BBB00D5B9AD /* popup.html in Resources */,
+				AD403BBE2F327BBB00D5B9AD /* options.html in Resources */,
+				AD403BBC2F327BBB00D5B9AD /* options.bundle.js in Resources */,
+				AD403BB72F327BBB00D5B9AD /* content.styles.css in Resources */,
+				AD403BBB2F327BBB00D5B9AD /* _metadata in Resources */,
+				AD403BBA2F327BBB00D5B9AD /* background.bundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B7E2F327BBB00D5B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403BAF2F327BBB00D5B9AD /* contentScript.bundle.js in Resources */,
+				AD403BB42F327BBB00D5B9AD /* manifest.json in Resources */,
+				AD403BB62F327BBB00D5B9AD /* icon-128.png in Resources */,
+				AD403BB02F327BBB00D5B9AD /* popup.html in Resources */,
+				AD403BB52F327BBB00D5B9AD /* options.html in Resources */,
+				AD403BB32F327BBB00D5B9AD /* options.bundle.js in Resources */,
+				AD403BAE2F327BBB00D5B9AD /* content.styles.css in Resources */,
+				AD403BB22F327BBB00D5B9AD /* _metadata in Resources */,
+				AD403BB12F327BBB00D5B9AD /* background.bundle.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD403B542F327BBA00D5B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B8E2F327BBB00D5B9AD /* ViewController.swift in Sources */,
+				AD403B5C2F327BBA00D5B9AD /* AppDelegate.swift in Sources */,
+				AD403B5E2F327BBA00D5B9AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B662F327BBB00D5B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B8F2F327BBB00D5B9AD /* ViewController.swift in Sources */,
+				AD403B6D2F327BBB00D5B9AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B722F327BBB00D5B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B922F327BBB00D5B9AD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD403B7C2F327BBB00D5B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD403B932F327BBB00D5B9AD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD403B792F327BBB00D5B9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD403B752F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS) */;
+			targetProxy = AD403B782F327BBB00D5B9AD /* PBXContainerItemProxy */;
+		};
+		AD403B832F327BBB00D5B9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD403B7F2F327BBB00D5B9AD /* Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS) */;
+			targetProxy = AD403B822F327BBB00D5B9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD403B4B2F327BBA00D5B9AD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD403B4C2F327BBA00D5B9AD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		AD403B5F2F327BBA00D5B9AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD403B602F327BBA00D5B9AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD403B622F327BBA00D5B9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD403B632F327BBA00D5B9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD403B6E2F327BBB00D5B9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD403B6F2F327BBB00D5B9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD403B942F327BBB00D5B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD403B952F327BBB00D5B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD403B972F327BBB00D5B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace.Extension";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD403B982F327BBB00D5B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace.Extension";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD403B9B2F327BBB00D5B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD403B9C2F327BBB00D5B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD403B9E2F327BBB00D5B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace.Extension";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD403B9F2F327BBB00D5B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace.Extension";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD403BA22F327BBB00D5B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD403BA32F327BBB00D5B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Tasks-for-Canvas---now-supporting-Blackboard--D2L-Brightspace";
+				PRODUCT_NAME = "Tasks for Canvas – now supporting Blackboard, D2L Brightspace";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD403B482F327BBA00D5B9AD /* Build configuration list for PBXProject "Tasks for Canvas – now supporting Blackboard, D2L Brightspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD403B942F327BBB00D5B9AD /* Debug */,
+				AD403B952F327BBB00D5B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD403B962F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD403B972F327BBB00D5B9AD /* Debug */,
+				AD403B982F327BBB00D5B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD403B9A2F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD403B9B2F327BBB00D5B9AD /* Debug */,
+				AD403B9C2F327BBB00D5B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD403B9D2F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD403B9E2F327BBB00D5B9AD /* Debug */,
+				AD403B9F2F327BBB00D5B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD403BA12F327BBB00D5B9AD /* Build configuration list for PBXNativeTarget "Tasks for Canvas – now supporting Blackboard, D2L Brightspace (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD403BA22F327BBB00D5B9AD /* Debug */,
+				AD403BA32F327BBB00D5B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD403B452F327BBA00D5B9AD /* Project object */;
+}
