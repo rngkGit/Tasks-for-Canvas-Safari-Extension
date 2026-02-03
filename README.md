@@ -1,10 +1,10 @@
 # Tasks for Canvas Safari Extension
 
-A Safari port of the popular Chrome extension [Tasks for Canvas](https://chrome.google.com/webstore/detail/tasks-for-canvas).
+A Safari port of the popular Chrome extension [Tasks for Canvas](https://www.tasksforcanvas.info).
 
 ## Overview
 
-This Safari extension provides the same functionality as the Chrome version of [Tasks for Canvas](https://chrome.google.com/webstore/detail/tasks-for-canvas) for Safari users on macOS. This Safari port maintains compatibility with the original extension's functionality while adapting it for the Safari platform.
+This Safari extension provides the same functionality as the Chrome version of [Tasks for Canvas](https://www.tasksforcanvas.info) for Safari users on macOS. This Safari port maintains compatibility with the original extension's functionality while adapting it for the Safari platform.
 
 ## Compatibility
 
@@ -61,6 +61,6 @@ In addition, this extension is not affiliated with [UseBetterCanvas](https://git
 
 ## License
 
-The original Chrome extension [Tasks for Canvas](https://chrome.google.com/webstore/detail/tasks-for-canvas) is licensed under the MIT License. As a port of that extension, this project respects and acknowledges the original work.
+The original Chrome extension [Tasks for Canvas](https://www.tasksforcanvas.info) is licensed under the MIT License. As a port of that extension, this project respects and acknowledges the original work.
 
 This repository is licensed under the MIT License. Please see `LICENSE.md` for more.
