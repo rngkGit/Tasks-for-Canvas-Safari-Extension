@@ -17,7 +17,7 @@ Compatibility as a whole is unknown. Here are the known devices that can run thi
 
 ### From Source
 
-Do note that straight cloning this repository will not work. You will need the extension on chrome/brave and will need to change the directories manually.
+Do note that straight cloning this repository will not work. You will need the extension on chrome/brave and will need to change the directories manually. Or, better yet run `xcrun` to convert the chrome extension yourself.
 
 1. Clone this repository:
    ```bash
@@ -48,7 +48,8 @@ Tasks For Canvas.app is avaiable in the releases section for macOS.
 ### Important Note
 
 Ensure Safari Developer settings are enabled if the app is not signed (by default it is not).
-   - **macOS 26**: Safari → Settings → Advanced → Ensure "Show features for web developers" is checked → Developer → Allow unsigned extensions
+
+   * **macOS 26**: Safari → Settings → Advanced → Ensure "Show features for web developers" is checked → Developer → Allow unsigned extensions
 
 ## Issues
 
