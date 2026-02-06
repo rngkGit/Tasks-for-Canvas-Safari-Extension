@@ -17,6 +17,8 @@ Compatibility as a whole is unknown. Here are the known devices that can run thi
 
 ### From Source
 
+Do note that straight cloning this repository will not work. You will need the extension on chrome/brave and will need to change the directories manually.
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/rngkGit/Tasks-for-Canvas-Safari-Extension.git
@@ -26,13 +28,10 @@ Compatibility as a whole is unknown. Here are the known devices that can run thi
 2. Open the Xcode project:
    ```bash
    open "Tasks for Canvas – now supporting Blackboard, D2L Brightspace.xcodeproj"
-   ```
 
-3. Select your target platform (macOS or iPadOS)
+3. Build and run the project
 
-4. Build and run the project
-
-5. Enable the extension:
+4. Enable the extension:
    - **macOS**: Safari → Settings → Extensions → Enable "Tasks for Canvas"
 
 ### Building the Extension
@@ -48,7 +47,7 @@ Tasks For Canvas.app is avaiable in the releases section for macOS.
 
 ### Important Note
 
-Ensure Safari Developer settings are enabled.
+Ensure Safari Developer settings are enabled if the app is not signed (by default it is not).
    - **macOS 26**: Safari → Settings → Advanced → Ensure "Show features for web developers" is checked → Developer → Allow unsigned extensions
 
 ## Issues
